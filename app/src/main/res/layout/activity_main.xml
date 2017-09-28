@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    tools:context="com.bowotmf.tugas2x.MainActivity">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_margin="5dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Masukan Nama"
+                android:textSize="15sp" />
+
+            <EditText
+                android:id="@+id/isiNama"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:hint="Nama"
+                android:inputType="textNoSuggestions"
+                android:maxLines="1"
+                android:textColor="@color/colorAccent" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Masukan NPM"
+                android:textSize="15sp" />
+
+            <EditText
+                android:id="@+id/isiNpm"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:hint="NPM"
+                android:inputType="textNoSuggestions"
+                android:maxLines="1"
+                android:textColor="@color/colorAccent" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Masukan Tanggal Lahir"
+                android:textSize="15sp" />
+
+            <EditText
+                android:id="@+id/isiTtl"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:hint="Tanggal Lahir"
+                android:inputType="textNoSuggestions"
+                android:maxLines="1"
+                android:textColor="@color/colorAccent" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Masukan Agama"
+                android:textSize="15sp" />
+
+            <EditText
+                android:id="@+id/isiAgama"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:hint="Agama"
+                android:inputType="textNoSuggestions"
+                android:maxLines="1"
+                android:textColor="@color/colorAccent" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Masukan Fakultas"
+                android:textSize="15sp" />
+
+            <EditText
+                android:id="@+id/isiFakultas"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Fakultas"
+                android:inputType="textNoSuggestions"
+                android:maxLines="1"
+                android:textColor="@color/colorAccent" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Masukan Prodi"
+                android:textSize="15sp" />
+
+            <EditText
+                android:id="@+id/isiProdi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Prodi"
+                android:inputType="textNoSuggestions"
+                android:maxLines="1"
+                android:textColor="@color/colorAccent" />
+
+
+            <Button
+                android:id="@+id/btnambildata"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@color/colorAccent"
+                android:text="Kirim Data"
+                android:textColor="@android:color/background_light" />
+
+
+        </LinearLayout>
+    </RelativeLayout>
